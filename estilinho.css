@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #1b1833;
+    font-family: 'Recursive', sans-serif;;
+}
+
+.cabecalho{
+    background-color: #1b1833;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.logo{
+    max-width: 130px;
+}
+
+.filho{
+    font-size: 1.3rem;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho_lista{
+    display: flex;
+    gap: 20px;
+}
+
+.home{
+   background-image: url("https://abelardojr0.github.io/projeto-marvel/imagemprincipal.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.home_caixinha{
+    background-color: white;
+    display: flex;
+    padding: 40px   ;
+    border-radius: 20px ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.home_caixinha_titulo{
+    font-family: "Pacifico", cursive;
+    color: #1b1833;
+    font-size: 20px;
+}
+
+.home_caixinha_texto{
+    font-family: "Rubik Bubbles", system-ui;
+    color: #1b1833;
+    font-size: 24px;
+}
+
+.home_caixinha_botao{
+    font-family: "Pacifico", cursive;
+    background-color: #1b1833;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.categorias{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    padding: 0 30px;
+    gap: 3rem;
+}
+
+.container_categorias{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.categorias_titulo{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.categorias_cards{
+   display: flex;
+    height: 50vh;
+    width: 30vw;
+    gap: 20px;
+}
+
+.categorias_cards_card{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    gap: 15px;
+    text-align: center;
+}
+
+.categorias_cards_card_titulo{
+    font-size: 20px;
+}
+
+.categorias_cards_card_texto{
+    font-size: 12px;
+}
+
+.categorias_cards_card_botao{
+    color: white;
+    border: 1px solid white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.sobre{
+    background-image: url("https://abelardojr0.github.io/projeto-marvel/imagem-secundaria.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre_caixinha{
+    background-color: rgba(255, 255, 255, 0.798);
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.sobre_caixinha_titulo{
+    font-size: 32px;
+}
+
+.sobre_caixinha_texto{
+    line-height: 1.6;
+}
+
+.rodape{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    gap: 5px;
+}
+.rodape_textoDestaque{
+    font-size: 20px;
+}
+
+.rodape_textoNormal{
+    color: rgb(175, 175, 175);
+    font-size: 14px;
+}
+
+.rodape_textoAutor{
+    align-self: flex-end;
+    color: rgb(175, 175, 175);
+    font-size: 14px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
